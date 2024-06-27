@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>衡阳旅游网</title>
+    <!-- 引入css样式 -->
+     <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 头部部分 一个大div 装两个小div-->
+     <div class="header">
+        <!-- 放语言 -->
+         <img src="img/logo_1.jpg" alt="" height="105px" width="200">
+        <div class="language"> 
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>25℃~31℃</li>
+            </ul>
+        </div>
+        <!-- 导航条部分 -->
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="./index.html">首页</a>
+                </li>
+                <li>
+                    <a href="./html/HengYangsurvey.html">衡阳简介</a>
+                </li>
+                <li>
+                    <a href="./html/travelMsg.html">旅游资讯</a>
+                </li>
+                <li>
+                    <a href="./html/area.html">景区</a>
+                </li>
+                <li>
+                    <a href="./html/road.html">路线</a>
+                </li>
+                <li>
+                    <a href="./html/food.html">食在衡阳</a>
+                </li>
+                <li>
+                    <a href="./html/hotel.html">住在衡阳</a>
+                </li>
+                <li>
+                    <a href="#">购在衡阳</a>
+                </li>
+                <li>
+                    <a href="#">演出</a>
+                </li>
+                <li>
+                    <a href="#">南岳衡山</a>
+                </li>
+            </ul>
+            <!-- banner图部分 -->
+            <div class="banner">
+                <p>寿比南山 雁鸣衡阳</p>
+            </div>
+        </div>
+     </div>
+     <div class="continer">
+        <!-- 版心上面部分 -->
+         <div class="top1">
+            <!-- 左 -->
+            <div class="left">
+                <h2>衡阳旅游</h2>
+                <ul>
+                    <li>旅游攻略</li>
+                    <li>旅游贴士</li>
+                    <li>热门景区</li>
+                    <li>风味美食</li>
+                    <li>图片</li>
+                    <li>视频</li>
+                </ul>
+            </div> 
+            <!-- 中间 -->
+             <div class="center">
+                <div class="box">
+                    <div class="box-img"><img src="./img/center.jpg" alt=""></div>
+                    <div class="box-img"><img src="./img/center_1.png" alt=""></div>
+                    <div class="box-img"><img src="./img/bk4.jpg" alt=""></div>
+                    <div class="box-img"><img src="./img/lb2.jpg" alt=""></div>
+                    <div class="box-img"><img src="./img/bk.png" alt=""></div>
+                    <div class="img-left">&lt;</div>
+                    <div class="img-right">&gt;</div>
+                </div>
+             </div>
+            <!-- 右 -->
+             <div class="right">
+                <div class="news">
+                    <span class="news_left">最新动态</span>
+                    <span class="news_right">
+                        <a href="#">更多动态> </a>
+                    </span>
+                </div>
+                <ul>
+                    <li>“小上海”8月见！“衡阳1944”项目加速推进</li>
+                    <li>2024年衡阳市城区游泳场馆安全工作会议顺利召开</li>
+                    <li>省文旅厅一级巡视员欧阳斌一行莅临衡阳调研指导旅游品牌创建工作</li>
+                    <li>市文旅广体局2024年党风廉政建设工作会议召开</li>
+                    <li>祁剧《母与子》获省纪委监委三湘风纪网公开播出</li>
+                    <li>全市国有收藏单位文物鉴定（复核）工作圆满完成</li>
+                    <li>市广播电视传输网络中心举办拔河比赛</li>
+                    <li>"好家风 • 好传承"领导干部家风建设主题志愿活动圆满成功</li>
+                </ul>
+             </div>
+         </div>
+         <div class="top2">
+            <div class="top2_left">
+                <div class="top">
+                    <span class="title">
+                        热门景区与线路
+                    </span>
+                    <span class="item">南岳衡山</span>
+                    <span class="item">文化书院</span>
+                    <span class="item">抗战名城</span>
+                    <span class="item">美食游</span>
+                    <span class="item">养身游</span>
+                    <span class="more">
+                        <a href="#">
+                            其他路线>
+                        </a>
+                    </span>
+                </div>
+                <div class="bottom">
+                    <div id="echart">
+                    </div>
+                    <div class="bottom_right">
+                        <div class="item">
+                            <img src="./img/hengshan_1.jpg" alt="">
+                            <div class="itemRight">
+                                <h3>
+                                    <em>01</em>
+                                    南岳衡山，无尽巅峰
+                                </h3>
+                                <p>绵延弯曲山路，磨练攀登意志</p>
+        
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/kd_4.jpg" alt="">
+                            <div class="itemRight">
+                                <h3>
+                                    <em>02</em>
+                                    游湖湿地
+                                </h3>
+                                <p>茂密绿色植被，生态环境美好，游览岛屿与湿地公园，诉说无尽美丽</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/kd_2.jpg" alt="">
+                            <div class="itemRight">
+                                <h3>
+                                    <em>03</em>
+                                    全国唯一抗战纪念城
+                                </h3>
+                                <p>身处红色教育之下，培养激情革命情怀</p>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="top2_right">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+         </div>
+         <div class="top3">
+            <div class="left">
+                <h1 class="guide">旅游向导</h1>
+                <div class="travel">
+                    <div class="item">
+                        <span>景区</span>
+                        <img src="./img/top3_1.png" alt="">
+                        <ul>
+                            <li>5A级景区</li>
+                            <li>4A级景区</li>
+                            <li>红色景点</li>
+                            <li>书香文化</li>
+                            <li>绿植湿地</li>
+                            <li>主题乐园</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <span>线路</span>
+                        <img src="./img/top3_2.jpg" alt="">
+                        <ul>
+                            <li>红色之旅</li>
+                            <li>书香之旅</li>
+                            <li>生态之旅</li>
+                            <li>嗦粉路线</li>
+                            <li>衡山之旅</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <span>美食</span>
+                        <img src="./img/top3_3.jpg" alt="">
+                        <ul>
+                            <li>衡阳米粉</li>
+                            <li>衡阳小炒</li>
+                            <li>火辣烧烤</li>
+                            <li>土味小馆</li>
+                            <li>美食街</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <span>酒店</span>
+                        <img src="./img/top3_4.png" alt="">
+                        <ul>
+                            <li>景区酒店</li>
+                            <li>市中心酒店</li>
+                            <li>豪华酒店</li>
+                            <li>步行街酒店</li>
+                            <li>经济酒店</li>
+                            <li>青年旅舍</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <span>逛街</span>
+                        <img src="./img/top3_5.png" alt="">
+                        <ul>
+                            <li>解放路</li>
+                            <li>酃湖万达</li>
+                            <li>蒸湘万达</li>
+                            <li>商业步行街</li>
+                            <li>大洋百货</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <span>表演</span>
+                        <img src="./img/top3_6.png" alt="">
+                        <ul>
+                            <li>演唱会</li>
+                            <li>烟火表演</li>
+                            <li>民俗演出</li>
+                            <li>体育竞赛</li>
+                            <li>湘江赛龙舟</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h1 class="guide">游客热评</h1>
+                <div class="remark">
+                    <ul>
+                        <li>
+                            <p class="name">游客ID:不爱吃香菜</p>
+                            <p class="from">2024年5月26日 来自江西南昌</p>
+                            <p class="content">
+                                推荐！推荐！推荐！随便一家衡阳土菜馆都非常好吃！特别是茶油鸭，我太爱这个味道了！
+                            </p>
+                        </li>
+                        <li>
+                            <p class="name">游客ID:雁城过客</p>
+                            <p class="from">2024年5月17日 来自广西柳州</p>
+                            <p class="content">
+                               衡阳鱼粉绝绝子！
+                               <br>
+                               <img src="./img/rm.jpg" alt="">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="name">游客ID:不知道取什么名字</p>
+                            <p class="from">2024年4月26日 来自湖南益阳</p>
+                            <p class="content">
+                                哇！衡阳人也太热情好客了吧！找不到地方，随便在路上问一个老爷爷，他非常耐心地告诉我怎么走，还和我说哪里哪里有什么好吃的好玩的。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="name">游客ID:the weekends</p>
+                            <p class="from">2024年4月7日 来自广东广州</p>
+                            <p class="content">
+                                家人们！东洲岛实在是太出片了，大家都给我来这玩！
+                                <img src="./img/rm1.jpg" alt="">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="name">游客ID:肉多多</p>
+                            <p class="from">2024年3月26日 来自湖南湘潭</p>
+                            <p class="content">
+                                推荐大家去约三杯这个店子！强烈推荐香酥梅子鸭，酱板鸭，跳跳蛙！
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+         <div class="top5">
+            <h1 class="guide">游记攻略</h1>
+            <p>
+                即使独行，衡阳也会和你在一起
+                <br>
+                <a href="#">更多+>></a>
+            </p>
+            <div class="circleBox">
+                <div class="circle">
+                    <img src="./img/top5_1.png" alt="">
+                    <div class="world">
+                        游览书香历史<br>
+                        体验文化之美
+                        <div class="coord">衡阳</div>
+                    </div>
+                </div>
+                <div class="circle">
+                    <img src="./img/top5_2.jpg" alt="">
+                    <div class="world">
+                        鱼粉，卤粉，炒码粉<br>
+                        沉浸嗦粉快乐
+                        <div class="coord">衡阳</div>
+                    </div>
+                </div>
+                <div class="circle">
+                    <img src="./img/top5_3.jpg" alt="">
+                    <div class="world">
+                        冬天的衡山<br>
+                        冰寒雾凇，别具一格
+                        <div class="coord">衡阳</div>
+                    </div>
+                </div>
+                <div class="circle">
+                    <img src="./img/top5_4.jpg" alt="">
+                    <div class="world">
+                        历史与现代碰撞<br>
+                        体验时尚打卡
+                        <div class="coord">衡阳</div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="top4">
+            <h1 class="guide">热门推荐</h1>
+            <ul class="pics">
+                <li>
+                    <img src="./img/top4_1.jpg" alt="">
+                    <span>南岳衡山</span>
+                </li>
+                <li>
+                    <img src="./img/top4_2.jpg" alt="">
+                    <span>衡阳抗战纪念馆</span>
+                </li>
+                <li>
+                    <img src="./img/top4_3.jpg" alt="">
+                    <span>东洲岛</span>
+                </li>
+                <li>
+                    <img src="./img/top4_4.png" alt="">
+                    <span>石鼓书院</span>
+                </li>
+                <li>
+                    <img src="./img/top4_5.jpg" alt="">
+                    <span>蔡伦竹海</span>
+                </li>
+                <li>
+                    <img src="./img/top4_6.png" alt="">
+                    <span>玛雅水上乐园</span>
+                </li>
+                <li>
+                    <img src="./img/top4_7.png" alt="">
+                    <span>衡阳市动物园</span>
+                </li>
+                <li>
+                    <img src="./img/kd_4.jpg" alt="">
+                    <span>南湖公园</span>
+                </li>
+            </ul>
+         </div>
+     </div>
+     <div class="foot">
+        <!-- 底部上面部分 -->
+        <div class="footTop">
+            <div class="left">
+                <div class="leftWorld">
+                    <h1>衡阳旅游网</h1>
+                    <p>衡阳文化旅游局</p>
+                    <p>衡阳文旅官方推广网站</p>
+                    <p>衡阳第三届旅游发展大会</p>
+                </div>
+                <div class="pic">
+                    <img src="./img/foot_1.png" alt="">
+                    <p>更多精彩内容请关注</p>
+                    <p>衡阳市文旅局官方微信公众号</p>
+                </div>
+            </div>
+            <div class="center">
+                <h3>友情链接</h3>
+                <ul>
+                    <li>衡阳概况</li>
+                    <li>景区 美食 酒店 购物 交通</li>
+                    <li>会议展览</li>
+                    <li>旅游资讯</li>
+                    <li>旅游推广</li>
+                    <li>旅游贴士</li>
+                    <li>节日活动</li>
+                    <li>南岳衡山</li>
+                    <li>旅游攻略</li>
+                    <li>旅游线路</li>
+                    <li>打卡景点</li>
+                    <li>衡阳市文旅局官方抖音</li>
+                </ul>
+            </div>
+            <div class="right">
+                <h3>联系我们</h3>
+                <ul>
+                    <li>
+                        <img src="./img/footer_2.png" alt="">
+                        3406478408@qq.com
+                    </li>
+                    <li>
+                        <img src="./img/phone.png" alt="">
+                        0037-286-9926
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p>www.visithy.com</p>
+     </div>
+     <script type="text/javascript" src="./js/echarts.js"></script>
+     <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript">
+        $(function(){
+            var index=0;
+            var f;
+            function dingshiqi(){
+                f=setInterval(function(){
+                    if(index==$(".box-img").length-1){
+                        index=0;
+                        $(".top1>.center>.box>.box-img").css("opacity","0");
+                        $(".top1>.center>.box>.box-img").eq(index).css("opacity","1");
+                    }
+                    else{
+                        index++;
+                        $(".top1>.center>.box>.box-img").css("opacity","0");
+                        $(".top1>.center>.box>.box-img").eq(index).css("opacity","1");
+                    }
+                },3000)
+            }
+            dingshiqi();
+            $(".top1>.center>.box>.img-left").click(function(){
+                    clearInterval(f);
+                    if(index==0){
+                        index=$(".box-img").length-1;
+                        $(".box-img").css("opacity","0");
+                        $(".box-img").eq(index).css("opacity","1");
+                        dingshiqi();
+                    }
+                    else{
+                        index--;
+                        $(".box-img").css("opacity","0");
+                        $(".box-img").eq(index).css("opacity","1");
+                        dingshiqi();
+                    }
+            })
+            $(".top1>.center>.box>.img-right").click(function(){
+                    clearInterval(f);
+                    if(index==$(".box-img").length-1){
+                        index=0;
+                        $(".box-img").css("opacity","0");
+                        $(".box-img").eq(index).css("opacity","1");
+                        dingshiqi();
+                    }
+                    else{
+                        index++;
+                        $(".box-img").css("opacity","0");
+                        $(".box-img").eq(index).css("opacity","1");
+                        dingshiqi();
+                    }
+            })
+        })
+        var myChart = echarts.init(document.getElementById('echart'));
+        window.onresize = function(){
+            myChart.resize();
+        }
+        option = {
+            title: {
+                text: '衡阳市热门景区热度占比',
+                left: 'center',
+                top: 10,
+            },
+            legend: {
+                orient: 'horizontal',
+                bottom: 0,
+                left: 'center'
+            },
+            series:[{
+                type: 'pie',
+                data: [{
+                        value:3000,
+                        name: '衡山'
+                    },{
+                        value:2000,
+                        name: '东洲岛'
+                    },{
+                        value:1000,
+                        name: '南湖公园'
+                    },{
+                        value:1000,
+                        name: '抗战纪念馆'
+                    },{
+                        value:2000,
+                        name: '石鼓书院'
+                    },{
+                        value:500,
+                        name: '衡阳市动物园'
+                    },{
+                        value:300,
+                        name: '衡阳市美术馆'
+                    },
+                ],radius: '60%'
+            }]
+        };
+        myChart.setOption(option);
+     </script>
+</body>
+</html>
