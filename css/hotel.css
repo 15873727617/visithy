@@ -1,0 +1,412 @@
+/* 清楚默认边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header设置一个外边距 留出页边距*/
+.header{
+    margin-top: 15px;
+    height: 105px;
+}
+body{
+    min-width: 1684px;
+    max-width: 1684px;
+    margin: 0 auto;
+}
+/* 语言部分的样式 */
+.language{
+    width: 100%;
+    height: 35px;
+    background-color: #101111;
+}
+/* 语言下面的li标签 用来存放语言*/
+.language>ul{
+    float: right;
+    /* right: 470px; */
+    margin-right: 80px;
+}
+.language>ul>li{
+    width: 80px;
+    height: 35px;
+    background-color: #fff;
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+} 
+.language>ul>li:nth-of-type(1) {
+    background: url(../img/lag.png);
+}
+.language>ul>li:nth-of-type(1):hover{
+    background: url(../img/lag.png) no-repeat -80px 0px;
+}
+.language>ul>li:nth-of-type(2){
+    /* background-color: aqua; */
+    background: url(../img/lag.png) no-repeat 0px -33px;
+}
+.language>ul>li:nth-of-type(2):hover{
+    background: url(../img/lag.png) no-repeat -80px -33px;
+}
+.language>ul>li:nth-of-type(3){
+    background: url(../img/lag.png) no-repeat 0px -67px;
+}
+.language>ul>li:nth-of-type(3):hover{
+    background: url(../img/lag.png) no-repeat -80px -67px;
+}
+.language>ul>li:nth-of-type(4){
+    background: url(../img/lag.png) no-repeat 0px -100px;
+}
+.language>ul>li:nth-of-type(4):hover{
+    background: url(../img/lag.png) no-repeat -80px -100px;
+}
+.language>ul>li:nth-of-type(5){
+    padding-left: 32px;
+    font-size: 14px;
+    line-height: 42px;
+    background: url(../img/b1.png) no-repeat -4px 8px;
+    background-color: #3c87c7;
+    /* overflow: hidden; */
+}
+/* 导航条部分 */
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #9d3e07
+}
+/* 清楚a标签 */
+a{
+    text-decoration: none;
+}
+.nav>ul{
+    margin-left: 400px;
+    height: 70px;
+}
+.nav>ul>li{
+    height: 70px;
+    padding: 0 30px;
+    float: left;
+    list-style: none;
+}
+.nav>ul>li>a{
+    color: white;
+    line-height: 70px;
+}
+.header>img{
+    float: left;
+    margin-left: 125px;
+}
+#home{
+    margin-top: 21px;
+}
+.continer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 1550px;
+    /* background-color: yellowgreen; */
+}
+/* 旅游资讯部分，标题 */
+.continer>.title{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    background-color: rgb(217, 107, 4);
+    color: #fff;
+    padding: 0px 3%;
+    box-sizing: border-box;
+}
+.continer>.top1{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.continer>.top1>.left{
+    width: 67%;
+    height: 100%;
+    float: left;
+    margin-right: 3%;
+}
+/* .continer>.top1>.left>img{
+    width: 100%;
+    height: 100%;
+} */
+.continer>.top1>.left>.box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.continer>.top1>.left>.box>.box-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.continer>.top1>.left>.box>.box-img:nth-child(1){
+    opacity: 1;
+}
+.continer>.top1>.left>.box>.box-img>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.continer>.top1>.left>.box>.img-left{
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    background-color: rgb(208, 204, 204);
+    color: #fff;
+    top: 45%;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.continer>.top1>.left>.box>.img-left:hover{
+    background-color: #fff;
+    color: black;
+}
+.continer>.top1>.left>.box>.img-right{
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    background-color: rgb(208, 204, 204);
+    color: #fff;
+    top: 46.5%;
+    left: 97.3%;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.continer>.top1>.left>.box>.img-right:hover{
+    background-color: #fff;
+    color: black;
+}
+.continer>.top1>.right{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.continer>.top1>.right>p{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.continer>.top1>.right>ul{
+    list-style: none;
+    height: 350px;
+}
+.continer>.top1>.right>ul>li{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px dashed black;
+    width: 90%;
+    margin-left: 5%;
+}
+.continer>.top1>.right>ul>li:hover{
+    background-color: #d7d5d7;
+}
+.continer>.top1>.right>ul>li>em{
+    font-size: 22px;
+    padding: 0px 10px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+.continer>.top1>.right>ul>li>.f{
+    color: #da361a;
+}
+.continer>.top1>.right>ul>li>.s{
+    color: #e77d14;
+}
+.continer>.top1>.right>ul>li>.t{
+    color: #f3e006;
+}
+.continer>.top1>.right>ul>li>.fo{
+    color: #71f306;
+}
+.continer>.top1>.right>ul>li>.fi{
+    color: #068336;
+}
+.continer>.top2{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+.continer>.top2>h3{
+    width: 100%;
+    height: 60px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 60px;
+    border-bottom: 5px solid orange;
+}
+.continer>.top2>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.continer>.top2>ul>li{
+    width: 19%;
+    height: 240px;
+    margin: 10px 0px;
+    border-radius: 7px;
+}
+.continer>.top2>ul>li:hover{
+    background-color: #d7d5d7;
+}
+.continer>.top2>ul>li>img{
+    width: 100%;
+    height: 180px;
+    border-radius: 7px;
+}
+.continer>.top2>ul>li>img:hover{
+    opacity:0.6;
+    filter:alpha(opacity=40); 
+}
+.continer>.top2>ul>li>.left{
+    width: 70%;
+    float: left;
+}
+.continer>.top2>ul>li>.left>span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.continer>.top2>ul>li>.left>p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.continer>.top2>ul>li>.right{
+    float: left;
+    width: 30%;
+    height: 70px;
+    line-height: 50px;
+}
+.continer>.top2>ul>li>.right>p{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    color: #ec761b;
+}
+.foot{
+    width: 100%;
+    height: 280px;
+    background-color: #282928;
+    color: #f2f2f2;
+    padding: 30px 90px;
+    box-sizing: border-box;
+}
+.foot>.footTop{
+    width: 70%;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(109, 108, 108);
+}
+.footTop>.left{
+    height: 140px;
+    width: 50%;
+    border-right: 1px solid rgb(109, 108, 108);
+}
+.footTop>.left>.leftWorld{
+    width: 40%;
+    height: 100%;
+    line-height: center;
+    float: left;
+    margin-left: 20%;
+}
+.footTop>.left>.leftWorld>h1{
+    font-weight: 500;
+}
+.footTop>.left>.leftWorld>p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.footTop>.left>.pic{
+    width:40%;
+    height: 100%;
+    float: left;
+}
+.footTop>.left>.pic>img{
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    margin-left: 23%;
+}
+.footTop>.left>.pic>p{
+    font-size: 12px;
+    text-align: center;
+    color: #6a696b;
+}
+.foot>p{
+    margin-top: 20px;
+    text-align: center;
+}
+.foot>p:hover{
+    color: #f47710;
+}
+.footTop>.right{
+    height: 140px;
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.footTop>.right>.content{
+    height: 100%;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+.footTop>.right>.content>h3{
+    color: #eebb12;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.footTop>.right>.content>ul{
+    list-style: none;
+}
+.footTop>.right>.content>ul>li{
+    width: 100%;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.footTop>.right>.content>ul>li:hover{
+    color: #f47710;
+}
+.footTop>.right>.content>ul>li:nth-of-type(1){
+    padding-left: 40px;
+    position: relative;
+    background: url(../img/sm_arrow.png) no-repeat 3px 7px;
+}
+.footTop>.right>.content>ul>li:nth-of-type(1)>img{
+    position: absolute;
+    top: 0.5px;
+    left: 15px;
+}
+.footTop>.right>.content>ul>li:nth-of-type(2){
+    margin-top: 7px;
+    padding-left: 40px;
+    position: relative;
+    background: url(../img/sm_arrow.png) no-repeat 3px 7px;
+}
+.footTop>.right>.content>ul>li:nth-of-type(2)>img{
+    position: absolute;
+    top: 0.5px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+ } 
